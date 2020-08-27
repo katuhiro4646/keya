@@ -1,0 +1,591 @@
+
+body {
+  margin: 0 auto;
+}
+
+/* ここからheader */
+
+.header-list a {
+  text-decoration: none;
+}
+
+
+
+/* HPロゴの大きさ */
+.header-icon {
+  width: auto;
+  float: left;
+}
+
+/* HPロゴ */
+.header-icon img {
+  width: 48px;
+  margin-top: 15px;
+  margin-left: 72px;
+  margin-right: 7px;
+  text-decoration: none;
+}
+
+/* ノートパソコン～サポートまでのheader-list */
+.header-list {
+  width: 1300px;
+}
+
+/* ノートパソコン～サポートまでのheader-list */
+.header-list ul {
+  float: left;
+  display: flex;
+  align-items: center;
+  line-height: 80%;
+  text-decoration: none;
+  
+}
+
+/* ノートパソコン～サポートまでのheader-list */
+.header-list li {
+  
+  margin-right: 18px;
+  margin-left: 18px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+/* 虫眼鏡のアイコン */
+.header-list img {
+ 
+  width: 30px;
+  height: 30px;
+  margin-left: 47px;
+  margin-top: 25px;
+}
+/* header ここまで */
+
+
+/* ここから真ん中 */
+
+/* お姉さん1枚目の写真 */
+.contner img{
+ object-fit: cover;
+ width: 1348px;
+ height: 750px;
+ vertical-align: top;
+ position: relative;
+  
+}
+
+/* ポジション設定している藍色の画像 */
+
+
+
+
+
+
+
+
+
+
+.contner-item img {
+  width: 1348px;
+  height: 40px;
+  
+  position: fixed;
+  top: 12%;
+  z-index: 1;
+}
+
+/* ポジション設定している文字 */
+.contner-item2 {
+  width: 1340px;
+  position: fixed;
+  top: 11%;
+  left: 4%;
+  z-index: 2;
+}
+
+/* ポジション設定している文字 */
+.contner-item2 ul {  
+  height: 50px;
+}
+
+/* ポジション設定している文字 */
+.contner-item2 li {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-right: 200px;
+}
+
+/* 一枚目の画像の文字の全体 */
+
+.name {
+
+  position: absolute;
+  top: 23%;
+  left: 76%;
+  display: inline-block;
+  height: 200px;
+  text-align: right;
+}
+
+/* 一枚目の画像のFor～文字のところ */
+.name h1 {
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: MS Sans Serif;
+}
+
+/* 一枚目の画像のクリエイティブ～文字のところ */
+.name p {
+  text-align: right;
+}
+
+/* 一枚目の画像のさらに～、今すぐ～の文字の全体 */
+.name2 {
+ 
+ position: absolute;
+ top: 40%;
+ left: 68%;
+}
+
+/* 一枚目の画像のさらに～、今すぐ～の文字 */
+.name2 li {
+  color: black;
+  display: inline-block;
+  padding: 6px 32px;
+  margin-right: 5px;
+  border: 1px black solid;
+}
+
+.name2 li:hover {
+  background-color: black;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* 2枚目の画像のところ */
+
+.wrapper-item img {
+  width: 1349px;
+  height: 750px;
+  object-position: 40% right;
+  object-fit: none;
+  vertical-align: top;
+
+}
+
+/* 2枚目の画像の文字全体のところ */
+.wrapper-item2 {
+ position: absolute;
+ top: 140%;
+ left: 5%;
+ width: 400px;
+ 
+}
+
+/* 2枚目の画像のHP～ところ */
+
+.wrapper-item2 h1 {
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: MS Sans Serif;
+}
+
+/* 2枚目の画像のさらに～、今すぐ～のところ */
+.wrapper-item2 ul {
+  position: absolute;
+  top: 120%;
+  left: -10%;
+  margin: auto;
+}
+
+/* 2枚目の画像のさらに～、今すぐ～のところ */
+.wrapper-item2 li {
+  display: inline-block;
+  padding: 6px 32px;
+  margin-right: 5px;
+  border: 1px black solid;
+  color: black;
+}
+
+
+.wrapper-item2 li:hover {
+  background-color: black;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+/* 3枚目の画像のところ */
+.wrapper-item3 img {
+ object-fit: cover;
+ width: 1348px;
+ height: 750px;
+ vertical-align: top;
+ position: relative;
+}
+
+/* 3枚目の画像の文字の全体のところ */
+.wrapper-item4 {
+  color: #fff;
+  position: absolute;
+  top: 260%;
+  left: 5%;
+  width: 400px;
+  
+}
+ 
+/* 3枚目の画像のHP～文字のところ */
+.wrapper-item4 h1 {
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: MS Sans Serif;
+}
+
+/* 3枚目の画像のさらに～、今すぐ～の文字のところ */ 
+.wrapper-item4 ul {
+  position: absolute;
+  top: 120%;
+  left: -10%; 
+}
+
+/* 3枚目の画像のさらに～、今すぐ～の文字のところ */ 
+.wrapper-item4 li {
+
+  display: inline-block;
+  padding: 6px 32px;
+  margin-right: 5px;
+  border: 1px #fff solid;
+}
+
+/* 3枚目の画像のさらに～の文字のところ */ 
+span  {
+  background-color: #fff;
+  color: black;
+}
+
+.sample {
+  color: #fff;
+}
+
+
+
+
+
+/* 4枚目の画像のところ */ 
+.wrapper-item5 img {
+  object-fit: cover;
+  width: 1348px;
+  height: 750px;
+  vertical-align: top;
+  position: relative;
+}
+
+/* 4枚目の画像の文字の全体のところ */ 
+.wrapper-item6 {
+  color: #fff;
+  position: absolute;
+  top: 380%;
+  left: 5%;
+  width: 400px;
+}
+ 
+/* 4枚目の画像のHP～の文字のところ */ 
+.wrapper-item6 h1 {
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: MS Sans Serif;
+}
+ 
+/* 4枚目の画像のさらに～、今すぐ～の文字のところ */ 
+.wrapper-item6 ul {
+  position: absolute;
+  top: 120%;
+  left: -10%;
+}
+
+/* 4枚目の画像のさらに～、今すぐ～の文字のところ */ 
+.wrapper-item6 li {
+  
+  display: inline-block;
+  padding: 6px 32px;
+  margin-right: 5px;
+  border: 1px #fff solid;
+}
+
+/* 4枚目の画像のさらに～の文字のところ */ 
+.span {  
+  background-color: #fff;
+  color: black;
+}
+
+
+/* 5枚目の画像のところ */ 
+.wrapper-item7 img {
+  
+  object-fit: cover;
+  width: 1348px;
+  height: 750px;
+  vertical-align: top;
+  position: relative;
+}
+
+/* 5枚目の画像の文字の全体のところ */ 
+.wrapper-item8 {
+  color: black;
+  position: absolute;
+  top: 500%;
+  left: 5%;
+  width: 400px;
+}
+ 
+/* 5枚目の画像のHP～の文字のところ */ 
+.wrapper-item8 h1 {
+  font-size: 26px;
+  font-weight: lighter;
+  font-family: MS Sans Serif;
+}
+ 
+/* 5枚目の画像のさらに～、今すぐ～の文字のところ */ 
+.wrapper-item8 ul {
+  position: absolute;
+  top: 120%;
+  left: -10%;
+}
+
+/* 5枚目の画像のさらに～、今すぐ～の文字のところ */ 
+.wrapper-item8 li {
+  color: black;
+  display: inline-block;
+  padding: 6px 32px;
+  margin-right: 5px;
+  border: 1px black solid;
+}
+
+
+.wrapper-item8 li:hover {
+  background-color: black;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*ここからフッター  */
+
+/* footer全体 */
+footer {
+  width: 1348px;
+  height: 495px;
+  background-color: #555555;
+  padding-top: 10px;
+}
+
+/* footerの国～の文字の設定 */
+.footer-logo {
+  position: relative;
+}
+
+/* footerの国～の文字の設定 */
+.footer-logo h1 {
+  font-size: 15px;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 80px;
+  padding-bottom: 13px;
+}
+
+/* footerの国～の文字の線の設定 */
+.footer-logo h1:before {
+ content: '';
+ position: absolute;
+ left: 50%;
+ top: 40px;
+ display: inline-block;
+ width: 1285px;
+ height: 1px;
+ -webkit-trnsform: translateX(-50%);
+ transform: translateX(-50%);
+ background-color: #fff;
+ opacity: 0.3;
+}
+
+/* footerの会社情報～The Grageまでの文字の設定 */
+.footer-list {
+  width: 305px;
+  display: block;
+  float: left;
+  position: relative;
+}
+
+/* footerの会社情報の文字の設定 */
+.footer-list h1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+/* footerの会社情報～The Grageまでの文字の設定 */
+.footer-list ul {
+  margin-left: 40px;
+  list-style: none;
+}
+
+/* footerの会社情報～The Grageまでの文字の設定 */
+.footer-list li {
+  font-size: 15px;
+  color: #fff;
+  line-height: 26px;
+ 
+}
+
+/* footerの会社情報～The Grageまでの文字の線の設定 */
+.footer-list:before {
+  content: '';
+  position: absolute;
+  left: 220%;
+  top: 300px;
+  display: inline-block;
+  width: 1280px;
+  height: 1px;
+  -webkit-trnsform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+/* footerの製品ご購入方法～販売検索までの文字の設定 */
+.footer-list2 {
+  display: block;
+  float: left;
+  width: 290px;
+}
+
+/* footerの製品ご購入方法の文字の設定 */
+.footer-list2 h1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+/* footerの製品ご購入方法～販売検索までの文字の設定 */
+.footer-list2 ul {
+  margin-left: px;
+ 
+  list-style: none;
+}
+
+/* footerの製品ご購入方法～販売検索までの文字の設定 */
+.footer-list2 li {
+  font-size: 15px;
+  color: #fff;
+  line-height: 26px;
+}
+
+/* footerの製品ご購入方法～販売検索までの設定 */
+.footer-list3 {
+  display: block;
+  float: left;
+  width: 270px;
+}
+
+/* footerのサポートの文字の設定 */
+.footer-list3 h1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+/* footerの製品ドライバー ～ セキュリティ情報までの文字の設定 */
+.footer-list3 ul {
+  list-style: none;
+}
+
+/* footerの製品ドライバー ～ セキュリティ情報までの文字の設定 */
+.footer-list3 li {
+  font-size: 15px;
+  color: #fff;
+  line-height: 26px;
+}
+
+/* footerのパートナー ～ 販売～までの文字の設定 */
+.footer-list4 {
+  display: block;
+  float: left;
+  width: 270px;
+}
+
+/* footerのパートナーの文字の設定 */
+.footer-list4 h1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+/* footerの販売 ～ 販売までの文字の設定 */
+.footer-list4 ul {
+  
+  list-style: none;
+}
+
+/* footerの販売 ～ 販売～までの文字の設定 */
+.footer-list4 li {
+  font-size: 15px;
+  color: #fff;
+  line-height: 26px;
+}
+
+/* footerのソーシャルメディア ～ 販売～までの文字の設定 */
+.footer-list5 {
+ padding-top: 2px;
+}
+
+/* footerのソーシャルメディアの文字の設定 */
+.footer-list5 h1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 60px;
+  
+}
+
+/* footerのソーシャルメディア ～ 販売～までの文字の設定 */
+.footer-list5 ul {
+  margin-left: 20px;
+  list-style: none;
+}
+
+/* footerのソーシャルメディア ～ 販売～までの文字の設定 */
+.footer-list5 li {
+  font-size: 15px;
+  color: #fff;
+  line-height: 26px;
+  display: inline-block;
+}
+
+
+.footer-list6 {
+  float: none;
+  width: 1200px;
+  clear: both;
+}
+
+.footer-list6 li {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 14px;
+  display: inline-block;
+  color: #fff;
+}
+
+
+.footer-list6 p {
+  color: #fff;
+  font-size: 13px;
+  margin-left: 60px;
+}
